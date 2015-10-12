@@ -51,6 +51,7 @@ import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.github.shareme.gwsmaterialedit.library.validation.RegexpValidator;
 import com.grottworkshop.gwsmaterialedit.validation.METLengthChecker;
 import com.grottworkshop.gwsmaterialedit.validation.METValidator;
 
@@ -1230,7 +1231,7 @@ public class MaterialEditText extends AppCompatEditText {
      * @param validator Validator to add
      * @return This instance, for easy chaining
      */
-    public MaterialEditText addValidator(METValidator validator) {
+    public MaterialEditText addValidator(RegexpValidator validator) {
         if (validators == null) {
             this.validators = new ArrayList<>();
         }
