@@ -51,9 +51,9 @@ import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.github.shareme.gwsmaterialedit.library.validation.METLengthChecker;
+import com.github.shareme.gwsmaterialedit.library.validation.METValidator;
 import com.github.shareme.gwsmaterialedit.library.validation.RegexpValidator;
-import com.grottworkshop.gwsmaterialedit.validation.METLengthChecker;
-import com.grottworkshop.gwsmaterialedit.validation.METValidator;
 
 import java.util.ArrayList;
 import java.util.List;
