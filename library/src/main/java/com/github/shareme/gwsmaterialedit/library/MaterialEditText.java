@@ -55,6 +55,8 @@ import com.github.shareme.gwsmaterialedit.library.validation.METLengthChecker;
 import com.github.shareme.gwsmaterialedit.library.validation.METValidator;
 import com.github.shareme.gwsmaterialedit.library.validation.RegexpValidator;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -70,6 +72,7 @@ import java.util.regex.Pattern;
 public class MaterialEditText extends AppCompatEditText {
 
     @IntDef({FLOATING_LABEL_NONE, FLOATING_LABEL_NORMAL, FLOATING_LABEL_HIGHLIGHT})
+    @Retention(RetentionPolicy.SOURCE)
     public @interface FloatingLabelType {
     }
 

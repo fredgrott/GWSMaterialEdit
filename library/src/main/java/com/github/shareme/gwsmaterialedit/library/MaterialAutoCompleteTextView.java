@@ -54,6 +54,8 @@ import android.view.View;
 import com.github.shareme.gwsmaterialedit.library.validation.METLengthChecker;
 import com.github.shareme.gwsmaterialedit.library.validation.METValidator;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -70,6 +72,7 @@ public class MaterialAutoCompleteTextView extends AppCompatAutoCompleteTextView 
 
 
     @IntDef({FLOATING_LABEL_NONE, FLOATING_LABEL_NORMAL, FLOATING_LABEL_HIGHLIGHT})
+    @Retention(RetentionPolicy.SOURCE)
     public @interface FloatingLabelType {
     }
 
