@@ -19,7 +19,7 @@ Than in the module buildscript:
 
 
 ```groovy
-compile 'com.github.shareme:GWSMaterialEdit:1.0.0.0@aar'
+compile 'com.github.shareme:GWSMaterialEdit:{latest-release-number}@aar'
 ```
 
 
